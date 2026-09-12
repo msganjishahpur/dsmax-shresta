@@ -1,1 +1,16 @@
-b1 file is updated by mahesh remotely
+    pipeline{
+        agent any
+        
+        stages{
+            stage("Stage-1"){
+                steps{
+                    echo 'welcome to first pipeline file'
+                }
+            }
+            stage("Stage-2"){
+                steps{
+                    echo 'welcome to second pipeline file'
+                }
+            }
+        }
+    }
