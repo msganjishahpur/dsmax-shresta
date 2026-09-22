@@ -1,3 +1,0 @@
-Welcome to t1 file.
-message wrote from server side
-this is existing file
